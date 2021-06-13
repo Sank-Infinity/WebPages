@@ -1,0 +1,196 @@
+body {
+  background-image: url(https://i.imgur.com/lJ3bIvl.jpg);
+  
+  background-position: center center;
+  
+
+  background-repeat: no-repeat;
+  
+  background-attachment: fixed;
+  
+  background-size: cover;
+  
+  background-color: #464646;
+}
+
+
+
+div {
+  width: 1050px;
+  margin: auto;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+
+}
+
+li{
+  font-size:30px;
+  margin: auto;
+  padding: 5px;
+}
+
+ol > li:before {
+content: '🥗';
+margin-left: -20px;
+margin-right: 10px;
+}
+
+p {
+  text-align: left;
+  color:  #000000;
+  font-size: 30px;
+  margin: auto;
+  padding: 30;
+}
+
+
+img{
+   border:3px solid white;
+  max-width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+div.polaroid {
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 80px;
+
+}
+
+div.containers {
+  background-color: rgb(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: 2px 2px gray;
+}
+
+.containers p{
+  color-rendering:gradient;
+  color: silver;
+  text-shadow: 2px 2px gray;
+}
+div.link {
+    background-color: rgb(0.2, 0.2, 0.2, 0.2);
+
+}
+
+h2{
+    margin: 0.8em 0 0.5em 0;
+	color: red;
+	font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+	font-size: 36px;
+	line-height: 40px;
+	counter-increment: section-2;
+	counter-reset: section-3 section-4;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	padding-bottom: 10px;
+
+}
+
+h3{
+    margin: 0.8em 0 0.5em 0;
+	color: purple;
+	font-family: "Times New Roman", Times, serif;
+    font-style: bold;
+	font-size: 36px;
+	line-height: 40px;
+	counter-increment: section-2;
+	counter-reset: section-3 section-4;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+	padding-bottom: 10px;
+
+}
+
+div.stair{
+  font-size: 23px;
+  font-family: cursive;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  text-shadow: 2px 2px gray;
+
+}
+
+div.exposure{
+  background-color: rgba(0,0,0,0.2);
+  margin-top: 80px;
+  text-shadow: 2px 2px gray;
+
+}
+.exposure > p {
+    color: white;
+
+}
+
+.logo {
+  font: 84px 'Arial Narrow', sans-serif;/* I picked this font because it's the closest looking 'web safe' font http://cssfontstack.com/ */
+  color: green;
+  font-family: Times New Roman; 
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  border-bottom: 1px solid silver;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px gray;
+
+}
+
+/* stuff for both words */
+.logo span {
+  position: relative;
+}
+.logo span:before,
+.logo span:after {
+  content: '';
+  position: absolute;
+  border-width: 32px;/* makes a nice, big 64px square */
+  border-style: solid;
+  border-color: transparent;
+  height: 0;
+  z-index: 10;
+}
+
+/* stuff for 1st word */
+.logo .word1 {
+  color: #dc006c;
+  margin-right: -8px;
+  transform: rotateY(180deg);/* using Prefix free */
+  display: inline-block;/* required for transform */
+  z-index: 10;/* stack 1st word on top */
+}
+.logo .word1:before {
+  right: -30px;/* would be left, but we flipped the word */
+  top: -9px;
+  border-top-color: #282828;/* match background color */
+  border-right-color: #282828;/* would be left, but we flipped the word */
+}
+.logo .word1:after {
+  left: -1px;/* would be right, but we flipped the word */
+  bottom: -15px;
+  border-bottom-color: #282828;
+  border-left-color: #282828;/* would be right, but we flipped the word */
+}
+
+/* stuff for 2nd word */
+.logo .word2 {
+  z-index: 0;/* stack 2nd word below */
+}
+.logo .word2:before {
+  left: -4px;
+  top: -6px;
+  border-top-color: #282828;
+  border-left-color: #282828;
+}
+.logo .word2:after {
+  right: -px;  
+  bottom: 4px;
+  border-bottom-color: #282828;
+  border-right-color: #282828;
+}
+
+
+
+

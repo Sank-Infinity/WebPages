@@ -1,0 +1,183 @@
+body{
+	background-color: #f7f7f7;
+}
+
+.containers{
+	background-color: rgb(66,103,178);
+	display: flex;
+
+}
+#fade{
+	font-family: sans-serif;
+	margin-top:  -10px;
+	padding-left: 280px;
+	padding-top: 40px;
+	padding-bottom: 0px;
+	color: white;
+	font-size : 40px;
+}
+
+#form{
+	display: flex;
+	margin-right: 0px;
+	padding-right: 0px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+	color: white;
+	line-height: 7px;
+	padding-left: 400px;
+}
+
+
+#lname{
+	width: 160px;
+	height: 20px;
+}
+
+#fname{
+	width: 160px;
+	height: 20px;
+}
+
+#Log{
+	width: 55px;
+	height: 25px;
+	background-color: royalblue;
+	color: white;
+}
+
+#box1{
+		padding-left: 20px;
+}
+
+
+#box2{
+		padding-left: 20px;
+}
+
+
+#box3{
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+#pass{
+	color: lightblue;
+}
+
+#title{
+	padding-left: 280px;
+	padding-top: 60px;
+	font-family: monospace;
+	font-size: 20px;
+}
+
+#master{
+	width: 500px;
+	height: 250px;
+}
+
+.text{
+	display: inline-flex;
+}
+
+#label{
+	padding-top: 15px; 
+	padding-bottom: 0px;
+	padding-left: 95px;
+	font-family: monospace;
+	font-size: 35px;	
+}
+#tim{
+	font-size: 20px;
+}
+#final{
+	padding-top: 15px; 
+	padding-bottom: 0px;
+	padding-left: 95px;
+	line-height: 15px;
+}
+
+#que{
+	width: 20px;
+	height: 20px;
+	padding-left:  10px;
+}
+
+#Firstname{
+	padding: 10px;
+	border-radius: 3px;
+	width: 200px;	
+	padding-left: 20px;
+}
+#Mobile{
+	padding: 10px;
+	border-radius: 3px;
+	width: 450px;	
+}
+
+#date{
+	padding: 10px;
+	border-radius: 5px;
+	width: 30px;
+	height: 10px;
+}
+.text h3{
+	color: gray;
+	font-family: monospace;
+}
+
+#gender{
+	font-family: monospace;
+	font-size:  50px;
+
+}
+
+#button {
+  display: inline-block;
+  padding: 10px 50px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 15px;
+  box-shadow: 0 4.5px #999;
+  
+}
+
+#button:hover {background-color: #3e8e41}
+
+#button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+
+
+
+.footer{
+	display: 	block;
+	text-align: center;
+	background-color: lightgrey;
+
+}
+
+div >footer > ul {
+  list-style-type: none;
+  padding-left:  50px;
+  overflow: hidden;
+}
+
+div >footer > ul > li {
+  float: left;
+}
+
+div >footer > ul > li a {
+  display: inline-flex;
+  padding: 8px;
+  text-align: center;
+}
